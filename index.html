@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Escuchadle ♪ - Un juego de canciones diario</title>
+    <meta name="description" content="Adivina la canción en 6 intentos. Un nuevo tema cada día.">
+
+    <meta property="og:title" content="Escuchadle ♪ - Un juego de canciones diario">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://escuchadle.fun">
+    <meta property="og:image" content="https://escuchadle.fun/img/escuchadle-logo-1200.png">
+    <meta property="og:description" content="Escuchadle es un juego donde hay que adivinar la canción del día en menos de 6 intentos (Un respetuoso homenaje a Wordle y Heardle).">
+    <meta property="og:site_name" content="Escuchadle">
+    <meta property="og:image:alt" content="Logo Escuchadle">
+    
+    <meta name="author" content="@gonzalo-díaz-rusconi">
+    <meta name="image" property="og:image" content="https://escuchadle.fun/img/escuchadle-logo.png">
+    
+    <meta property="twitter:domain" content="http://escuchadle.fun">
+    <meta name="twitter:title" content="Escuchadle">
+    <meta name="twitter:description" content="Adivina la canción en 6 intentos. Un nuevo tema cada día.">
+    <meta name="twitter:creator" content="@escuchadle">
+    <meta name="twitter:image" content="https://escuchadle.fun/img/escuchadle-logo-300.png">
+
+    <meta itemprop="name" content="Escuchadle - Un juego de canciones diario">
+    <meta itemprop="description" content="Adivina la canción en 6 intentos. Un nuevo tema cada día.">
+    <meta itemprop="image" content="https://escuchadle.fun/img/escuchadle-logo.png">
+    
+    <meta property="og:image" content="https://escuchadle.fun/img/escuchadle-logo-300.png" />
+    <meta property="og:image:secure_url" content="https://escuchadle.fun/img/escuchadle-logo-300.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon shortcut" href="img/favicon.ico">
+    <link  rel="apple-touch-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0a525ee5a7.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Y9TCXLV6W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8Y9TCXLV6W');
+    </script>
+    
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-group1" class="header-icons">
+            <button class="icon-header"><i class="fas fa-circle-info"></i></button>
+            <button class="icon-header"><i class="fa-solid fa-heart"></i></i></button>
+        </div>
+        <h1 id="title-h1">Escuchadle♪</h1>
+        <div id="header-group2" class="header-icons">
+            <button class="icon-header"><i class="fa-solid fa-chart-column"></i></button>
+            <button class="icon-header"><i class="fa-solid fa-circle-question"></i></button>
+        </div>
+    </header>
+
+    <main>
+        
+        <div id="info-box" class="icons-boxes-absolute">
+            <h3 class="box-h3">INFO<i class="fa-solid fa-xmark xmark-box"></i></h3>
+            <p class="box-p">Un respetuoso homenaje &#128588; a <a href="https://www.heardle.app" target="_blank">Heardle</a> pero con canciones en castellano.</p>
+            <p class="box-p">Cada Escuchadle diario se extrae de manera semi aleatoria de una larga lista de canciones populares. Mucho ❤️ y &#128591; para ellos y por supuesto, todos los &#169;</p>
+            <p class="box-p">Hice esta app para poder disfrutar del mismo juego pero con canciones en nuestra &#128069;</p>
+            <p class="box-p grey">API's:
+                <a href="https://developers.google.com/youtube/iframe_api_reference" target="_blank">YouTube</a>,
+                <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>,
+                <a href="https://css.gg/" target="_blank">css.gg</a></p>
+            <p class="box-p grey">Desarrollado por:
+                <a href="https://github.com/gonadr09" target="_blank"><i class="fa-brands fa-github">&nbsp</i>gonadr09</a><br>
+                <a href="https://twitter.com/diaz_rusconi" target="_blank"><i class="fa-brands fa-twitter"></i>diaz_rusconi</a>
+            </p>
+            <button class="ok">Salir</button>
+        </div>
+        <div id="support-box" class="icons-boxes-absolute">
+            <h3 class="box-h3">COPATE<i class="fa-solid fa-xmark xmark-box"></i></h3>
+            <p class="box-p">Escuchadle es un juego que fue desarrollado por una sola persona. Si disfrutaste jugando, considerá apoyarme; haré todo lo posible para mantenerlo activo y seguir mejorándolo &#128522;</p>
+            
+            <a href='https://cafecito.app/gonadr09' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_3.png 1x, https://cdn.cafecito.app/imgs/buttons/button_3_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_3_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_3.png' alt='Invitame un café en cafecito.app' /></a>
+
+            <p class="box-p">También podés enviarnos a la cuenta de <a href="https://twitter.com/escuchadle" target="_blank"><i class="fa-brands fa-twitter"></i>@escuchadle</a> recomendaciones, mejoras, qué artistas te gustaría agregar, etc. Please be kind! &#129305;</p>
+            <button class="ok">Salir</button>
+        </div>
+
+        <div id="stats-box" class="icons-boxes-absolute">
+            <h3 class="box-h3">ESTADÍSTICAS<i class="fa-solid fa-xmark xmark-box"></i></h3>
+            <div id="stats-subbox">
+
+                <div id="marks-box">
+                    <div class="mark-boxes">
+                        <p id="games-played" class="mark-number">0</p>
+                        <p class="mark-text">Jugadas</p>
+                    </div>
+                    <div class="mark-boxes">
+                        <p id="win-rate" class="mark-number">0</p>
+                        <p class="mark-text">Victorias %</p>
+                    </div>
+                    <div class="mark-boxes">
+                        <p id="currect-streak" class="mark-number">0</p>
+                        <p class="mark-text">Racha actual</p>
+                    </div>
+                    <div class="mark-boxes">
+                        <p id="best-streak" class="mark-number">0</p>
+                        <p class="mark-text">Mejor racha</p>
+                    </div>
+                </div>
+                <hr>    
+                <div id="guessed-box">
+                    <div id="try-1" class="tries-boxes">
+                        <p class="tries-p">1 ➜</p>
+                        <div class="average-bar"><p id="bar1" class="average-number">0</p></div>
+                    </div>
+                    <div id="try-2" class="tries-boxes">
+                        <p class="tries-p">2 ➜</p>
+                        <div class="average-bar"><p id="bar2" class="average-number">0</p></div>
+                    </div>
+                    <div id="try-3" class="tries-boxes">
+                        <p class="tries-p">3 ➜</p>
+                        <div class="average-bar"><p id="bar3" class="average-number">0</p></div>
+                    </div>
+                    <div id="try-4" class="tries-boxes">
+                        <p class="tries-p">4 ➜</p>
+                        <div class="average-bar"><p id="bar4" class="average-number">0</p></div>
+                    </div>
+                    <div id="try-5" class="tries-boxes">
+                        <p class="tries-p">5 ➜</p>
+                        <div class="average-bar"><p id="bar5" class="average-number">0</p></div>
+                    </div>
+                    <div id="try-6" class="tries-boxes">
+                        <p class="tries-p">6 ➜</p>
+                        <div class="average-bar"><p id="bar6" class="average-number">0</p></div>
+                    </div>
+                    <div id="try-x" class="tries-boxes">
+                        <p class="tries-p">x ➜</p>
+                        <div class="average-bar"><p id="barX" class="average-number">0</p></div>
+                    </div>
+                </div>
+                <hr>
+                <span>Próximamente... más modos de juego 🕹️</span>
+            </div>
+            <button class="ok">Salir</button>
+        </div>
+
+        <div id="help-box" class="icons-boxes-absolute">
+            <h3 class="box-h3">¿CÓMO JUGAR?<i class="fa-solid fa-xmark xmark-box"></i></h3>
+            <div class="help-text-box">
+                <i class="fa-solid fa-music"></i>
+ 
+                <p class="box-p">Escuchá la intro y adiviná la canción. Tenés 6️⃣ oportunidades para acertar 🎯 </p>
+            </div>
+            <div class="help-text-box">
+                <i class="fa-solid fa-headphones"></i>
+                <p class="box-p">Si pasás o fallás un intento, se desbloquean más segundos ⏰ del tema.</p>
+            </div>
+            <div class="help-text-box">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p class="box-p">Acertá en el menor número de intentos posibles 🥇 y compartí tu puntuación con amigos y familia 😊</p>
+            </div>
+            <hr>
+            <div id="dark-mode-box">
+                <p>Modo oscuro</p>
+                <label id="switch1" class="switch">
+                    <input id="myCheck" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <hr>
+            
+            <button class="ok">Jugar</button>
+        </div>
+
+        <audio id="audio" controls autoplay="true" loop = "true">
+            <source src="silencio.mp3" type="audio/mp3"/>
+        </audio>
+
+        <div class="youtube-video">
+            <div id="player"></div>
+        </div>
+
+        <section id="oportunities-section">
+
+
+
+            <div class="opportunities-box"><p class="opportunities"></p></div>
+            <div class="opportunities-box"><p class="opportunities"></p></div>
+            <div class="opportunities-box"><p class="opportunities"></p></div>
+            <div class="opportunities-box"><p class="opportunities"></p></div>
+            <div class="opportunities-box"><p class="opportunities"></p></div>
+            <div class="opportunities-box"><p class="opportunities"></p></div>
+            
+            <h2 id="finalMsg"></h2>
+
+            <div id="song-share-box">
+
+                <div id="score"></div>
+                <div id="copied"></div>
+                <button id="share"><i class="fa-solid fa-share-nodes"></i> COMPARTIR</button>
+
+            </div>
+
+        </section>
+    
+        <section id="game-section">
+
+            <div id="time-bar">
+                <div id="current-time-bar"><div id="point-time-bar"></div></div>
+                
+            </div>
+            <div id="playBox">
+                <p id="current-time" class="time-number">0:00</p>
+                <div id="play-pause-box">
+                    <button id="play" class="play-buttons">
+                        <i class="fa-solid fa-circle">
+                            <i class="fa-solid fa-play"></i>
+                            <i class="gg-loadbar-sound"></i>
+                        </i>
+                        <div id="loading"></div>
+                        <div id="loading2"></div>
+                    </button>
+                    <button id="pause" class="play-buttons">
+                        <i id="pause-icon" class="fa-solid fa-circle-pause"></i>
+                    </button>
+                </div> 
+                <p id="final-time" class="time-number">0:00</p>
+            </div>
+            <div id="msg-warning">
+                <i class="floating volumeLoud fa-solid fa-chevron-up"></i>
+                <p class="blinking">Sube el volumen 🔔 y presiona play para escuchar 🎵</p>
+            </div>
+            <div id="search-box">
+
+                <div id="list-box">
+                    <ul class="autocomplete-list" id="songs-list">
+                    </ul>
+                </div>
+                <div id="input-box">
+                    <i class="fa-solid fa-magnifying-glass icons-input"></i>
+                    <input type="text" id="search" placeholder=" ¿Te suena? Buscá aquí por título o artísta" autocomplete="off">
+                    <i id="xmark" class="fa-solid fa-xmark icons-input"></i>
+                </div>
+            </div>
+            <div id="buttonsBox">
+                <button id="skip" class="button">PASAR 🙄 (+seg)</button>
+                <button id="submit" class="button">ADIVINAR 🤞</button>
+            </div>
+
+            
+        </section> 
+        <div id="lastMsg">
+            <div id="next-escuchadle">
+                <p>Próximo escuchadle en:</p>
+                <p id="time-for"> 00:00:00</p>
+            </div>
+            <p id="love-escuchadle" class="floating">❤️ Escuchadle?</p>
+            <a class="floating" href='https://cafecito.app/gonadr09' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_3.png 1x, https://cdn.cafecito.app/imgs/buttons/button_3_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_3_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_3.png' alt='Invitame un café en cafecito.app' /></a>
+        </div>
+
+    </main> 
+    <script src="js/songsList.js"></script>
+    <script src="js/keySongList.js"></script>
+    <script src="js/script.js"></script>
+</html>
